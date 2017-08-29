@@ -1,0 +1,273 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+.row {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+body {
+	font-family: tahoma;
+}
+.header {
+	position: absolute;
+	width: 1140px;
+	top: 50%;
+	left: 50%;
+	transform:  translate(-50%, -50%);
+}
+header {
+	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(..//img/header.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.header h1 {
+	color: white;
+}
+
+.main-nav {
+	float: right;
+	list-style: none;
+	margin-top: 50px;
+}
+.main-nav li {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.main-nav li a {
+	color: white;
+	text-decoration: none;
+	font-size: 90%;
+	font-weight: bold;
+}
+
+.main-nav li a:hover {
+	color: #9400D3;
+	border-bottom: 2px solid #9400D3;
+	transition: all 0.5s ease-in;
+	padding: 15px 0;
+}
+
+.logo img {
+	height: 100px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 30px;	
+	display: inline-block;
+}
+
+.header .btn, .steps .btn {
+	border:  2px solid #9400D3;
+	padding: 10px 30px;
+	color: #9400D3;
+	font-weight: bold;
+	text-decoration: none;
+	border-radius: 12px;
+	margin-right: 15px;
+
+}
+
+.header .btn-half, .steps .btn-half {
+	background-color: #9400D3;
+	color: white;
+}
+
+.header .btn-full:hover {
+	background-color: #9400D3;
+	color: white;
+	transition: all 0.5s ease-in;
+}
+
+
+.buttons {
+	margin-top: 40px;
+}
+
+.features .copy {
+	width: 70%;
+	margin-left: 15%;
+	margin-bottom: 20px;
+}
+
+h3:after {
+	width: 100px;
+	height: 2px;
+	background-color: #9400D3;
+	display: block;
+	content: "";
+	margin: auto;
+	margin-top: 30px;
+}
+
+.features h3 {
+	margin-top: 80px;
+	margin-bottom: 30px;
+}
+
+.columns {
+	text-align: justify;
+}
+
+.features i {
+	font-size: 40px;
+	color: #9400D3;
+	margin-left: 45%;
+}
+
+.features h4 {
+	text-align: center;
+}
+
+.knits-ph {
+	list-style: none;
+	width: 100%;
+}
+
+.knits-ph li {
+	display: block;
+	width: 25%;
+	float: left;
+}
+
+.knit-works {
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+}
+
+.knit-works img {
+	width: 100%;
+	height: auto;
+	transform: scale(1.15);
+	transition: all 0.5s;
+}
+
+.knit-works img:hover {
+	transform: scale(1.05);
+}
+.knit {
+	margin-top: 60px;
+}
+
+.pic img {
+	width: 100%;
+	margin-top: 50px;
+}
+
+.how-to-buy {
+	margin-top: 40px;
+}
+
+.steps {
+	margin-top: 50px;
+}
+
+.steps div {
+	border: 2px solid #9400D3;
+	border-radius: 50%;
+	display: inline-block;
+	font-size: 20px;
+	color: #9400D3;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 35px;
+}
+
+.clearfix {
+	zoom:1
+}
+
+.clearfix:after {
+	visibility: hidden;
+	content:"";
+	height: 0;
+	display: block;
+	clear: both;
+}
+
+.knit {
+	margin-top: 60px;
+}
+
+.needles {
+	margin-top: 60px;
+}
+
+.needles img {
+	width: 100%;
+}
+
+.needles .left {
+	float: left;
+}
+
+.needles .right {
+	float: right;
+}
+
+.needles .n-description {
+	margin: 20px;
+	font-size: 15px;
+}
+
+.tab {
+	margin-top: 30px;
+}
+
+.responses {
+	margin-top: 80px;
+	background-image: url(..//img/response.png);
+	background-position: fixed;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	color: white;
+}
+
+.responses cite img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.responses p {
+	margin-top: 20px;
+}
+
+.form .btn-block {
+	background-color: #9400D3;
+	color: white;
+	border-radius: 4px;
+	margin-top: 20px;
+}
+.gap {
+	margin-top: 40px;
+}
+
+.form {
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+footer {
+	background: #2d2d2d;
+	padding-top: 30px;
+	padding-bottom: 20px; 
+}
+
+footer i {
+	color: #bdbdbd;
+	font-size: 30px;
+	padding: 20px;
+	margin-left: 20%;
+}
+
+footer i:hover {
+	color: #9400D3;
+}
